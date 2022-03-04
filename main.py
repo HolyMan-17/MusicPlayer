@@ -322,7 +322,7 @@ async def queue_list(_, message: Message, lang):
         k = await message.reply_text(str(queue), disable_web_page_preview=True)
     else:
         k = await message.reply_text(lang["queueEmpty"])
-    await delete_messages([message, k])
+    await delete_messages([message])
 
 
 @client.on_message(
