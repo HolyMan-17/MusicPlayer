@@ -432,7 +432,7 @@ async def set_lang(_, message: Message, lang):
             k = await message.reply_text(lang["langSet"] % lng)
         else:
             k = await message.reply_text(lang["notFound"])
-        await delete_messages([message, k])
+        await delete_messages([message])
 
 
 @client.on_message(
