@@ -10,7 +10,7 @@
     "adminsOnly": "👮 | **Admins Only Mode %s!**",
     "audioMode": "🎧 | **Audio Mode Enabled!**",
     "videoMode": "🎥 | **Video Mode Enabled!**",
-    "notFound": "❌ | **Noting Found, Try Again!**",
+    "notFound": "❌ | **Nothing Found, Try Again!**",
     "notActive": "❌ | **No Active Group Call!**",
     "notPlaying": "❌ | **Nothing Is Playing!**",
     "spotifyNotEnabled": "❌ | **Spotify Is Not Enabled!**",
